@@ -24,8 +24,13 @@ p + p {
   margin-top: 1rem;
 }
 
+p a {
+  color: blue;
+}
+
 #app {
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   position: relative;
   display: flex;
   height: 100%;
@@ -37,6 +42,7 @@ p + p {
 }
 
 #app > main {
+  margin-bottom: 4rem;
   min-width: 320px;
   max-width: 70ch;
   padding: 1rem;
